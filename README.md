@@ -29,3 +29,22 @@ Before using the Interactive Descriptive Analysis Tool, ensure that you have the
 The notebook depends on several Python libraries. You can install them using the following command:
 ```bash
 pip install pandas numpy matplotlib seaborn
+
+
+### 🖥️ How to Use the Tool
+Load the Dataset: The tool will prompt you to enter the file path and type (CSV or Excel). For example:
+
+File path: /path/to/your/datafile.csv
+File type: csv or excel
+Dataset Overview: Automatically generates an overview of the dataset, including data types and summary statistics.
+
+Handle Missing Values: Identifies and displays any missing values in the dataset.
+
+Choose Columns for Analysis: Prompt to input specific columns you want to analyze, e.g., age, gender, income.
+
+Select Analysis Type: Choose the type of analysis to perform:
+
+Categorical Analysis: Shows value counts for each category.
+Numerical Analysis: Provides summary statistics and histograms.
+Correlation Analysis: Displays a heatmap of the correlation matrix.
+Visualize and Interpret: Examine the visualizations to gain insights into your data.
