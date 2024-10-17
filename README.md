@@ -41,14 +41,16 @@ Load the Dataset: The tool will prompt you to enter the file path and type (CSV 
 
 - Select Analysis Type: Choose the type of analysis to perform:
 
-    Categorical Analysis: Shows value counts for each category.
-    Numerical Analysis: Provides summary statistics and histograms.
-    Correlation Analysis: Displays a heatmap of the correlation matrix.
+    *Categorical Analysis: Shows value counts for each category.
+    *Numerical Analysis: Provides summary statistics and histograms.
+    *Correlation Analysis: Displays a heatmap of the correlation matrix.
   
--Visualize and Interpret: Examine the visualizations to gain insights into your data.
+- Visualize and Interpret: Examine the visualizations to gain insights into your data.
 
 ### Required Python Libraries
 The notebook depends on several Python libraries. You can install them using the following command:
+
+
 ```bash
 pip install pandas numpy matplotlib seaborn
 
