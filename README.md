@@ -1,3 +1,5 @@
+markdown
+Copy code
 # Interactive Descriptive Analysis Tool
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
@@ -27,9 +29,6 @@ Before using the Interactive Descriptive Analysis Tool, ensure that you have the
 
 ### Required Python Libraries
 The notebook depends on several Python libraries. You can install them using the following command:
-```bash
-pip install pandas numpy matplotlib seaborn
-
 
 ### 🖥️ How to Use the Tool
 Load the Dataset: The tool will prompt you to enter the file path and type (CSV or Excel). For example:
@@ -48,3 +47,8 @@ Categorical Analysis: Shows value counts for each category.
 Numerical Analysis: Provides summary statistics and histograms.
 Correlation Analysis: Displays a heatmap of the correlation matrix.
 Visualize and Interpret: Examine the visualizations to gain insights into your data.
+
+
+```bash
+pip install pandas numpy matplotlib seaborn
+
