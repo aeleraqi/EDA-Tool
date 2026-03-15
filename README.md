@@ -1,56 +1,39 @@
-markdown
-Copy code
-# Interactive Descriptive Analysis Tool
+# EDA Tool 🔍
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Jupyter Notebook](https://img.shields.io/badge/Platform-Jupyter%20Notebook-orange?logo=jupyter)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+[![Language](https://img.shields.io/badge/Language-Python%20%7C%20Jupyter-blue)](https://github.com/aeleraqi/EDA-Tool)
+[![Stars](https://img.shields.io/github/stars/aeleraqi/EDA-Tool?style=social)](https://github.com/aeleraqi/EDA-Tool/stargazers)
 
-## 📋 Overview
+An **Interactive Descriptive Analysis Tool** that automates Exploratory Data Analysis (EDA) on any dataset.
 
-The **Interactive Descriptive Analysis Tool** is a Jupyter notebook-based utility that simplifies the process of performing descriptive analysis on datasets. It allows users to load datasets, explore summary statistics, visualize distributions, and understand relationships between variables through an interactive user interface.
+## 📖 About
 
-### 🚀 Key Features
-- **Flexible Data Loading**: Supports both CSV and Excel file formats.
-- **Dynamic Column Selection**: Users can select specific columns for analysis.
-- **Comprehensive Analysis Options**:
-  - Categorical data analysis
-  - Numerical data analysis
-  - Correlation analysis
-- **Interactive Visualizations**: Generates histograms and heatmaps for a deeper understanding of data patterns.
-- **User-Friendly Interface**: Provides step-by-step instructions for easy navigation and usage.
+**EDA-Tool** automates the most common EDA tasks — upload your data and get comprehensive statistics, visualizations, and data quality checks instantly.
 
-## 🛠️ Prerequisites
+## ✨ Features
 
-Before using the Interactive Descriptive Analysis Tool, ensure that you have the following installed:
-- **Python 3.x**
-- **Jupyter Notebook** or **Google Colab**
+- Automated dataset overview (shape, types, missing values)
+- Descriptive statistics for all columns
+- Distribution plots for numerical variables
+- Correlation analysis and heatmaps
+- Missing value heatmaps
+- Categorical variable frequency analysis
+- Outlier detection with boxplots
 
-
-### 🖥️ How to Use the Tool
-Load the Dataset: The tool will prompt you to enter the file path and type (CSV or Excel). For example:
-
-- File path: /path/to/your/datafile.csv
-- File type: csv or excel
-- Dataset Overview: Automatically generates an overview of the dataset, including data types and summary statistics.
-
-- Handle Missing Values: Identifies and displays any missing values in the dataset.
-
-- Choose Columns for Analysis: Prompt to input specific columns you want to analyze, e.g., age, gender, income.
-
-- Select Analysis Type: Choose the type of analysis to perform:
-
-    *Categorical Analysis: Shows value counts for each category.
-    *Numerical Analysis: Provides summary statistics and histograms.
-    *Correlation Analysis: Displays a heatmap of the correlation matrix.
-  
-- Visualize and Interpret: Examine the visualizations to gain insights into your data.
-
-### Required Python Libraries
-The notebook depends on several Python libraries. You can install them using the following command:
-
+## 🚀 Getting Started
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+git clone https://github.com/aeleraqi/EDA-Tool.git
+pip install pandas matplotlib seaborn numpy
+jupyter notebook EDA_Tool.ipynb
+```
 
+## 💡 Usage
+
+1. Open the notebook
+2. Upload your CSV/Excel dataset
+3. Run all cells — the tool does the rest!
+
+---
+**Author:** [Amr Eleraqi](https://github.com/aeleraqi) — Data Analyst | NLP Specialist | Machine Learning Expert | Educator  
+**Affiliation:** Toronto Metropolitan University, Ontario, Canada  
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0935--0026-brightgreen)](https://orcid.org/0000-0003-0935-0026) [![GitHub](https://img.shields.io/github/followers/aeleraqi?label=Follow&style=social)](https://github.com/aeleraqi)
